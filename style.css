@@ -1,0 +1,38 @@
+body
+{
+    color: white;
+    font-family: 'Coming Soon', cursive;
+}
+h3
+{
+    width: 80%;
+    font-size: 22px;
+}
+
+.glow
+{
+font-size: 25px;
+text-align: center;
+color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+#camera{
+    border: 2px dashed whitesmoke;
+    width: 350px;
+    height: 300px;
+}
+#result_of_objects, #result_of_accuracy{
+    color: yellow;
+}
